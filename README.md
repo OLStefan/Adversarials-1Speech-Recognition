@@ -22,9 +22,9 @@ The other folders contain samples which were manipulated twice. The attacks in t
 The name of the subfolder was the target word for the attack. The file names are structured as follows: [first_attack_target]\_[original_word]\_[original_filename].
 The orignal files used for the twice manipulated samples is found in either the `adversarials-alazanot` or the `adversarials-carlini` folder depending on which attack was used in the first attack (indicated by the first attack in the folder name).
 
-## Calculated Results
+## Evaluate Classifiers
 
-The script recognizeAttack.py uses the samples to train different calssifiers to identify files which were manipulated.
+The script `evaluateClassifiers` uses the samples to train different calssifiers to identify files which weren't manipulated.
 
 The script uses different partitions of the samples to train the classifiers. Used Partitions are:
 
@@ -38,3 +38,5 @@ For each of these partitioned the script calculates:
 * Sensitivity/True Positive Rate (TP/(TP+FN))
 * Specificity/True Negative Rate (TN/(TN+FP))
 * Overall Correct Predictions ((TP+TN)/(TP+TN+FP+FN))
+
+For this case, True Positives refers to samples which were correctly predicted as non-manipulated, likewise True Negative refers to files which were correctly predicted as manipulated.
