@@ -10,17 +10,17 @@ The Attacks I used to create the samples are:
 ## Used Datasets
 
 The dataset used to create the samples was an excerpt from the Speech Commands Dataset (https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/data).
-Only the words used were: down, go, left, no, off, on, right, stop, up, and yes. 
+Only the words used were: `down`, `go`, `left`, `no`, `off`, `on`, `right`, `stop`, `up`, and `yes`. 
 
 ## Structure of Adversarial Samples
 
-The folders adversarials-alazanot and adversarials-carlini contain samples which were manipulated with the attack in the folder name once.
+The folders `adversarials-alazanot` and `adversarials-carlini` contain samples which were manipulated with the attack in the folder name once.
 The name of the subfolder was the target word for the attack. The file names are structured as follows: [original_word]_[original_filename].
 The orignal files used for the manipulated samples is found in the originals folder.
 
 The other folders contain samples which were manipulated twice. The attacks in the folder name indicate which attacks were used.
 The name of the subfolder was the target word for the attack. The file names are structured as follows: [first_attack_target]\_[original_word]\_[original_filename].
-The orignal files used for the twice manipulated samples is found in either the adversarials-alazanot or the adversarials-carlini folder depending on which attack was used in the first attack (indicated by the first attack in the folder name).
+The orignal files used for the twice manipulated samples is found in either the `adversarials-alazanot` or the `adversarials-carlini` folder depending on which attack was used in the first attack (indicated by the first attack in the folder name).
 
 ## Calculated Results
 
