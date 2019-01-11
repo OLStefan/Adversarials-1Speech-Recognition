@@ -1,0 +1,724 @@
+Attack 1: alzantot, Attack 2: alzantot
+	Target: down
+		Classifier: KMeans
+			Score: 0.09394617683585915
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0016459084605569205
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.001635253662230864
+		Classifier: DBSCAN (L1)
+			Score: 0.0016459084605569205
+		Classifier: DBSCAN (L2)
+			Score: 0.001635253662230864
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0016459084605569205
+	Target: go
+		Classifier: KMeans
+			Score: 0.07491344428160412
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.002578403087347579
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0028508964158521686
+		Classifier: DBSCAN (L1)
+			Score: 0.002578403087347579
+		Classifier: DBSCAN (L2)
+			Score: 0.0028508964158521686
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.002578403087347579
+	Target: left
+		Classifier: KMeans
+			Score: 0.0932331540981849
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.005203880880919149
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.005203880880919149
+		Classifier: DBSCAN (L1)
+			Score: 0.005203880880919149
+		Classifier: DBSCAN (L2)
+			Score: 0.005203880880919149
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.005203880880919149
+	Target: no
+		Classifier: KMeans
+			Score: 0.07532458607590083
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.00033444627383986616
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.00033444627383986616
+		Classifier: DBSCAN (L1)
+			Score: 0.00033444627383986616
+		Classifier: DBSCAN (L2)
+			Score: 0.00033444627383986616
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.00033444627383986616
+	Target: off
+		Classifier: KMeans
+			Score: 0.10426103582262151
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.001200999910953595
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0012726209420893134
+		Classifier: DBSCAN (L1)
+			Score: 0.001200999910953595
+		Classifier: DBSCAN (L2)
+			Score: 0.0012726209420893134
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.001200999910953595
+	Target: on
+		Classifier: KMeans
+			Score: 0.09534582583142791
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0046211576438591265
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0046211576438591265
+		Classifier: DBSCAN (L1)
+			Score: 0.0046211576438591265
+		Classifier: DBSCAN (L2)
+			Score: 0.0046211576438591265
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0046211576438591265
+	Target: right
+		Classifier: KMeans
+			Score: 0.09866574551456314
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.018342522514655363
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.018342522514655363
+		Classifier: DBSCAN (L1)
+			Score: 0.018342522514655363
+		Classifier: DBSCAN (L2)
+			Score: 0.018342522514655363
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.018342522514655363
+	Target: stop
+		Classifier: KMeans
+			Score: 0.07749607631828728
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.00206205549254902
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.00206205549254902
+		Classifier: DBSCAN (L1)
+			Score: 0.00206205549254902
+		Classifier: DBSCAN (L2)
+			Score: 0.00206205549254902
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.00206205549254902
+	Target: up
+		Classifier: KMeans
+			Score: 0.09294222108057482
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.000665548690462818
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.000659851723435476
+		Classifier: DBSCAN (L1)
+			Score: 0.000665548690462818
+		Classifier: DBSCAN (L2)
+			Score: 0.000659851723435476
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.000665548690462818
+	Target: yes
+		Classifier: KMeans
+			Score: 0.0846309736068797
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0029852578043468568
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0029852578043468568
+		Classifier: DBSCAN (L1)
+			Score: 0.0029852578043468568
+		Classifier: DBSCAN (L2)
+			Score: 0.0029852578043468568
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0029852578043468568
+Attack 1: alzantot, Attack 2: carlini
+	Target: down
+		Classifier: KMeans
+			Score: 0.007364073024051271
+		Classifier: DBSCAN (Cityblock)
+			Score: 6.489181641819634e-05
+		Classifier: DBSCAN (Euclidean)
+			Score: 6.489181641819634e-05
+		Classifier: DBSCAN (L1)
+			Score: 6.489181641819634e-05
+		Classifier: DBSCAN (L2)
+			Score: 6.489181641819634e-05
+		Classifier: DBSCAN (Manhattan)
+			Score: 6.489181641819634e-05
+	Target: go
+		Classifier: KMeans
+			Score: 0.019360477069636742
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.004263529731358787
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.004263529731358787
+		Classifier: DBSCAN (L1)
+			Score: 0.004263529731358787
+		Classifier: DBSCAN (L2)
+			Score: 0.004263529731358787
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.004263529731358787
+	Target: left
+		Classifier: KMeans
+			Score: 0.01795974560913522
+		Classifier: DBSCAN (Cityblock)
+			Score: -4.025751929946647e-05
+		Classifier: DBSCAN (Euclidean)
+			Score: -4.025751929946647e-05
+		Classifier: DBSCAN (L1)
+			Score: -4.025751929946647e-05
+		Classifier: DBSCAN (L2)
+			Score: -4.025751929946647e-05
+		Classifier: DBSCAN (Manhattan)
+			Score: -4.025751929946647e-05
+	Target: no
+		Classifier: KMeans
+			Score: 0.010247822298511924
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.003962021686572185
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.003962021686572185
+		Classifier: DBSCAN (L1)
+			Score: 0.003962021686572185
+		Classifier: DBSCAN (L2)
+			Score: 0.003962021686572185
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.003962021686572185
+	Target: off
+		Classifier: KMeans
+			Score: 0.01858542275066462
+		Classifier: DBSCAN (Cityblock)
+			Score: -0.00015883532236315548
+		Classifier: DBSCAN (Euclidean)
+			Score: -0.00015883532236315548
+		Classifier: DBSCAN (L1)
+			Score: -0.00015883532236315548
+		Classifier: DBSCAN (L2)
+			Score: -0.00015883532236315548
+		Classifier: DBSCAN (Manhattan)
+			Score: -0.00015883532236315548
+	Target: on
+		Classifier: KMeans
+			Score: 0.012753533705031784
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.00023854030919296293
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.00023854030919296293
+		Classifier: DBSCAN (L1)
+			Score: 0.00023854030919296293
+		Classifier: DBSCAN (L2)
+			Score: 0.00023854030919296293
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.00023854030919296293
+	Target: right
+		Classifier: KMeans
+			Score: 0.031174523577910566
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0009496147522389479
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0009496147522389479
+		Classifier: DBSCAN (L1)
+			Score: 0.0009496147522389479
+		Classifier: DBSCAN (L2)
+			Score: 0.0009496147522389479
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0009496147522389479
+	Target: stop
+		Classifier: KMeans
+			Score: 0.005419288955168923
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: up
+		Classifier: KMeans
+			Score: 0.009433448316953032
+		Classifier: DBSCAN (Cityblock)
+			Score: -0.00011586556133562868
+		Classifier: DBSCAN (Euclidean)
+			Score: -0.00011586556133562868
+		Classifier: DBSCAN (L1)
+			Score: -0.00011586556133562868
+		Classifier: DBSCAN (L2)
+			Score: -0.00011586556133562868
+		Classifier: DBSCAN (Manhattan)
+			Score: -0.00011586556133562868
+	Target: yes
+		Classifier: KMeans
+			Score: 0.019837906853904866
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.003722671276664745
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.003722671276664745
+		Classifier: DBSCAN (L1)
+			Score: 0.003722671276664745
+		Classifier: DBSCAN (L2)
+			Score: 0.003722671276664745
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.003722671276664745
+Attack 1: carlini, Attack 2: alzantot
+	Target: down
+		Classifier: KMeans
+			Score: 0.0643081725039281
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.028412119900084392
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.02879447250142602
+		Classifier: DBSCAN (L1)
+			Score: 0.028412119900084392
+		Classifier: DBSCAN (L2)
+			Score: 0.02879447250142602
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.028412119900084392
+	Target: go
+		Classifier: KMeans
+			Score: 0.08081376092225936
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.02626225382530022
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.026478782403812094
+		Classifier: DBSCAN (L1)
+			Score: 0.02626225382530022
+		Classifier: DBSCAN (L2)
+			Score: 0.026478782403812094
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.02626225382530022
+	Target: left
+		Classifier: KMeans
+			Score: 0.07290979536119868
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.031125388217970496
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.033856243669300914
+		Classifier: DBSCAN (L1)
+			Score: 0.031125388217970496
+		Classifier: DBSCAN (L2)
+			Score: 0.033856243669300914
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.031125388217970496
+	Target: no
+		Classifier: KMeans
+			Score: 0.08911680051064469
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.03055184929940925
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.031283533219387594
+		Classifier: DBSCAN (L1)
+			Score: 0.03055184929940925
+		Classifier: DBSCAN (L2)
+			Score: 0.031283533219387594
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.03055184929940925
+	Target: off
+		Classifier: KMeans
+			Score: 0.08718910098652181
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.024912421794780888
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0254822914620175
+		Classifier: DBSCAN (L1)
+			Score: 0.024912421794780888
+		Classifier: DBSCAN (L2)
+			Score: 0.0254822914620175
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.024912421794780888
+	Target: on
+		Classifier: KMeans
+			Score: 0.07724074263768643
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.025783126778122247
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.02601998018163709
+		Classifier: DBSCAN (L1)
+			Score: 0.025783126778122247
+		Classifier: DBSCAN (L2)
+			Score: 0.02601998018163709
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.025783126778122247
+	Target: right
+		Classifier: KMeans
+			Score: 0.09170310779050371
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.03286899816740024
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.03417167403004937
+		Classifier: DBSCAN (L1)
+			Score: 0.03286899816740024
+		Classifier: DBSCAN (L2)
+			Score: 0.03417167403004937
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.03286899816740024
+	Target: stop
+		Classifier: KMeans
+			Score: 0.09095206342847663
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.03167838081116694
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.031918993043839064
+		Classifier: DBSCAN (L1)
+			Score: 0.03167838081116694
+		Classifier: DBSCAN (L2)
+			Score: 0.031918993043839064
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.03167838081116694
+	Target: up
+		Classifier: KMeans
+			Score: 0.0983395517587598
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.030831295429697547
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0321138992057665
+		Classifier: DBSCAN (L1)
+			Score: 0.030831295429697547
+		Classifier: DBSCAN (L2)
+			Score: 0.0321138992057665
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.030831295429697547
+	Target: yes
+		Classifier: KMeans
+			Score: 0.08605671371436124
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.032956787258864646
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.034464607511669555
+		Classifier: DBSCAN (L1)
+			Score: 0.032956787258864646
+		Classifier: DBSCAN (L2)
+			Score: 0.034464607511669555
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.032956787258864646
+Attack 1: carlini, Attack 2: carlini
+	Target: down
+		Classifier: KMeans
+			Score: 0.0032515954268278425
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: go
+		Classifier: KMeans
+			Score: 0.0025185525324077584
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: left
+		Classifier: KMeans
+			Score: 2.980308202658875e-06
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: no
+		Classifier: KMeans
+			Score: 0.001214609856283143
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: off
+		Classifier: KMeans
+			Score: 0.000308725897526863
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: on
+		Classifier: KMeans
+			Score: 0.0011578967793290094
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: right
+		Classifier: KMeans
+			Score: 0.0008904209094020077
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: stop
+		Classifier: KMeans
+			Score: 0.002371349927979707
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: up
+		Classifier: KMeans
+			Score: -0.00041803951162468954
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+	Target: yes
+		Classifier: KMeans
+			Score: 0.002311897266807762
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+Attack 1: alzantot, Attack 2: alzantot
+	All Targets
+		Classifier: KMeans
+			Score: 0.00297114421089542
+		Classifier: DBSCAN (Cityblock)
+			Score: 6.709334306241046e-05
+		Classifier: DBSCAN (Euclidean)
+			Score: 6.764627500609438e-05
+		Classifier: DBSCAN (L1)
+			Score: 6.709334306241046e-05
+		Classifier: DBSCAN (L2)
+			Score: 6.764627500609438e-05
+		Classifier: DBSCAN (Manhattan)
+			Score: 6.709334306241046e-05
+Attack 1: alzantot, Attack 2: carlini
+	All Targets
+		Classifier: KMeans
+			Score: 0.008052862724166148
+		Classifier: DBSCAN (Cityblock)
+			Score: 8.36309362751612e-05
+		Classifier: DBSCAN (Euclidean)
+			Score: 8.36309362751612e-05
+		Classifier: DBSCAN (L1)
+			Score: 8.36309362751612e-05
+		Classifier: DBSCAN (L2)
+			Score: 8.36309362751612e-05
+		Classifier: DBSCAN (Manhattan)
+			Score: 8.36309362751612e-05
+Attack 1: carlini, Attack 2: alzantot
+	All Targets
+		Classifier: KMeans
+			Score: 0.003182730948700862
+		Classifier: DBSCAN (Cityblock)
+			Score: -2.262951311108646e-06
+		Classifier: DBSCAN (Euclidean)
+			Score: -2.8298959696973037e-06
+		Classifier: DBSCAN (L1)
+			Score: -2.262951311108646e-06
+		Classifier: DBSCAN (L2)
+			Score: -2.8298959696973037e-06
+		Classifier: DBSCAN (Manhattan)
+			Score: -2.262951311108646e-06
+Attack 1: carlini, Attack 2: carlini
+	All Targets
+		Classifier: KMeans
+			Score: 0.00137453396932914
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0
+		Classifier: DBSCAN (L1)
+			Score: 0.0
+		Classifier: DBSCAN (L2)
+			Score: 0.0
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0
+All Attacks
+	Target: down
+		Classifier: KMeans
+			Score: 0.013514336762936304
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.002662093409418314
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0026860934304901544
+		Classifier: DBSCAN (L1)
+			Score: 0.002662093409418314
+		Classifier: DBSCAN (L2)
+			Score: 0.0026860934304901544
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.002662093409418314
+	Target: go
+		Classifier: KMeans
+			Score: 0.013310969336584804
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.004284341483109226
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.004386992019838358
+		Classifier: DBSCAN (L1)
+			Score: 0.004284341483109226
+		Classifier: DBSCAN (L2)
+			Score: 0.004386992019838358
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.004284341483109226
+	Target: left
+		Classifier: KMeans
+			Score: 0.0188404294199155
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0035590543253024094
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0037651970451345355
+		Classifier: DBSCAN (L1)
+			Score: 0.0035590543253024094
+		Classifier: DBSCAN (L2)
+			Score: 0.0037651970451345355
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0035590543253024094
+	Target: no
+		Classifier: KMeans
+			Score: 0.013884430315334298
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0035811544106522726
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0035811544106522726
+		Classifier: DBSCAN (L1)
+			Score: 0.0035811544106522726
+		Classifier: DBSCAN (L2)
+			Score: 0.0035811544106522726
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0035811544106522726
+	Target: off
+		Classifier: KMeans
+			Score: 0.01739022648297962
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0019353942217425044
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0019940410329843173
+		Classifier: DBSCAN (L1)
+			Score: 0.0019353942217425044
+		Classifier: DBSCAN (L2)
+			Score: 0.0019940410329843173
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0019353942217425044
+	Target: on
+		Classifier: KMeans
+			Score: 0.014802119348914098
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0031641084901386086
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0031641084901386086
+		Classifier: DBSCAN (L1)
+			Score: 0.0031641084901386086
+		Classifier: DBSCAN (L2)
+			Score: 0.0031641084901386086
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0031641084901386086
+	Target: right
+		Classifier: KMeans
+			Score: 0.018208886430448063
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.006699187298594408
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.006851698074642375
+		Classifier: DBSCAN (L1)
+			Score: 0.006699187298594408
+		Classifier: DBSCAN (L2)
+			Score: 0.006851698074642375
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.006699187298594408
+	Target: stop
+		Classifier: KMeans
+			Score: 0.01596672122109018
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.0021373245024876404
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.002148786301220856
+		Classifier: DBSCAN (L1)
+			Score: 0.0021373245024876404
+		Classifier: DBSCAN (L2)
+			Score: 0.002148786301220856
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.0021373245024876404
+	Target: up
+		Classifier: KMeans
+			Score: 0.014876382721193826
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.00180232807582112
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.0019511355235717922
+		Classifier: DBSCAN (L1)
+			Score: 0.00180232807582112
+		Classifier: DBSCAN (L2)
+			Score: 0.0019511355235717922
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.00180232807582112
+	Target: yes
+		Classifier: KMeans
+			Score: 0.015274371488177297
+		Classifier: DBSCAN (Cityblock)
+			Score: 0.004848934674886886
+		Classifier: DBSCAN (Euclidean)
+			Score: 0.004942403551829996
+		Classifier: DBSCAN (L1)
+			Score: 0.004848934674886886
+		Classifier: DBSCAN (L2)
+			Score: 0.004942403551829996
+		Classifier: DBSCAN (Manhattan)
+			Score: 0.004848934674886886
+All Attacks, All Targets
+		Classifier: KMeans
+			Score: 0.000376145346857959
+		Classifier: DBSCAN (Cityblock)
+			Score: -8.593896947487182e-06
+		Classifier: DBSCAN (Euclidean)
+			Score: -8.901712025685377e-06
+		Classifier: DBSCAN (L1)
+			Score: -8.593896947487182e-06
+		Classifier: DBSCAN (L2)
+			Score: -8.901712025685377e-06
+		Classifier: DBSCAN (Manhattan)
+			Score: -8.593896947487182e-06

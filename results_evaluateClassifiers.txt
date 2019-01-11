@@ -1,0 +1,724 @@
+Attack 1: alzantot, Attack 2: alzantot
+	Target: down
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 19.55 (3799/19433)
+			Specificity/True Negative Rate (%): 97.99 (24857/25367)
+			Overall Correct Predictions (%): 63.96
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 79.47 (15443/19433)
+			Specificity/True Negative Rate (%): 99.2 (25164/25367)
+			Overall Correct Predictions (%): 90.64
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.61 (19357/19433)
+			Specificity/True Negative Rate (%): 99.87 (25333/25367)
+			Overall Correct Predictions (%): 99.75
+	Target: go
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 24.82 (4883/19677)
+			Specificity/True Negative Rate (%): 94.06 (23630/25123)
+			Overall Correct Predictions (%): 63.65
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 81.83 (16102/19677)
+			Specificity/True Negative Rate (%): 99.12 (24903/25123)
+			Overall Correct Predictions (%): 91.53
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.59 (19596/19677)
+			Specificity/True Negative Rate (%): 99.68 (25042/25123)
+			Overall Correct Predictions (%): 99.64
+	Target: left
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 20.38 (3956/19407)
+			Specificity/True Negative Rate (%): 99.2 (25189/25393)
+			Overall Correct Predictions (%): 65.06
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 80.51 (15624/19407)
+			Specificity/True Negative Rate (%): 99.02 (25145/25393)
+			Overall Correct Predictions (%): 91.0
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.47 (19305/19407)
+			Specificity/True Negative Rate (%): 99.73 (25325/25393)
+			Overall Correct Predictions (%): 99.62
+	Target: no
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 20.03 (3880/19370)
+			Specificity/True Negative Rate (%): 97.89 (24893/25430)
+			Overall Correct Predictions (%): 64.23
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 79.33 (15366/19370)
+			Specificity/True Negative Rate (%): 99.18 (25221/25430)
+			Overall Correct Predictions (%): 90.6
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.63 (19298/19370)
+			Specificity/True Negative Rate (%): 99.8 (25380/25430)
+			Overall Correct Predictions (%): 99.73
+	Target: off
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 25.2 (4900/19446)
+			Specificity/True Negative Rate (%): 95.84 (24300/25354)
+			Overall Correct Predictions (%): 65.18
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 79.31 (15422/19446)
+			Specificity/True Negative Rate (%): 99.48 (25223/25354)
+			Overall Correct Predictions (%): 90.73
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.59 (19366/19446)
+			Specificity/True Negative Rate (%): 99.73 (25286/25354)
+			Overall Correct Predictions (%): 99.67
+	Target: on
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 20.51 (4009/19544)
+			Specificity/True Negative Rate (%): 99.78 (25200/25256)
+			Overall Correct Predictions (%): 65.2
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 77.21 (15089/19544)
+			Specificity/True Negative Rate (%): 99.16 (25045/25256)
+			Overall Correct Predictions (%): 89.58
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.61 (19467/19544)
+			Specificity/True Negative Rate (%): 99.84 (25216/25256)
+			Overall Correct Predictions (%): 99.74
+	Target: right
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 27.12 (5262/19406)
+			Specificity/True Negative Rate (%): 99.3 (25167/25344)
+			Overall Correct Predictions (%): 68.0
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 78.57 (15247/19406)
+			Specificity/True Negative Rate (%): 99.23 (25149/25344)
+			Overall Correct Predictions (%): 90.27
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.61 (19331/19406)
+			Specificity/True Negative Rate (%): 99.8 (25293/25344)
+			Overall Correct Predictions (%): 99.72
+	Target: stop
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 28.4 (5538/19500)
+			Specificity/True Negative Rate (%): 99.26 (25112/25300)
+			Overall Correct Predictions (%): 68.42
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 81.02 (15799/19500)
+			Specificity/True Negative Rate (%): 98.53 (24927/25300)
+			Overall Correct Predictions (%): 90.91
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.54 (19410/19500)
+			Specificity/True Negative Rate (%): 99.8 (25249/25300)
+			Overall Correct Predictions (%): 99.69
+	Target: up
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 19.85 (3870/19494)
+			Specificity/True Negative Rate (%): 99.65 (25218/25306)
+			Overall Correct Predictions (%): 64.93
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 80.2 (15635/19494)
+			Specificity/True Negative Rate (%): 98.93 (25035/25306)
+			Overall Correct Predictions (%): 90.78
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.75 (19446/19494)
+			Specificity/True Negative Rate (%): 99.74 (25241/25306)
+			Overall Correct Predictions (%): 99.75
+	Target: yes
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 12.23 (2367/19349)
+			Specificity/True Negative Rate (%): 99.82 (25404/25451)
+			Overall Correct Predictions (%): 61.99
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 78.44 (15177/19349)
+			Specificity/True Negative Rate (%): 98.61 (25097/25451)
+			Overall Correct Predictions (%): 89.9
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.75 (19301/19349)
+			Specificity/True Negative Rate (%): 99.85 (25412/25451)
+			Overall Correct Predictions (%): 99.81
+Attack 1: alzantot, Attack 2: carlini
+	Target: down
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 79.51 (18979/23870)
+			Specificity/True Negative Rate (%): 94.0 (26348/28030)
+			Overall Correct Predictions (%): 87.34
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 96.66 (23073/23870)
+			Specificity/True Negative Rate (%): 98.04 (27481/28030)
+			Overall Correct Predictions (%): 97.41
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.44 (23736/23870)
+			Specificity/True Negative Rate (%): 98.16 (27514/28030)
+			Overall Correct Predictions (%): 98.75
+	Target: go
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 76.47 (18326/23965)
+			Specificity/True Negative Rate (%): 92.51 (26120/28235)
+			Overall Correct Predictions (%): 85.15
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 94.65 (22684/23965)
+			Specificity/True Negative Rate (%): 96.87 (27350/28235)
+			Overall Correct Predictions (%): 95.85
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.65 (23882/23965)
+			Specificity/True Negative Rate (%): 96.3 (27189/28235)
+			Overall Correct Predictions (%): 97.84
+	Target: left
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 70.24 (16826/23954)
+			Specificity/True Negative Rate (%): 93.94 (26347/28046)
+			Overall Correct Predictions (%): 83.03
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 95.49 (22873/23954)
+			Specificity/True Negative Rate (%): 98.46 (27613/28046)
+			Overall Correct Predictions (%): 97.09
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.54 (23843/23954)
+			Specificity/True Negative Rate (%): 98.13 (27522/28046)
+			Overall Correct Predictions (%): 98.78
+	Target: no
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 87.36 (20816/23827)
+			Specificity/True Negative Rate (%): 87.01 (24513/28173)
+			Overall Correct Predictions (%): 87.17
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 95.29 (22705/23827)
+			Specificity/True Negative Rate (%): 96.76 (27261/28173)
+			Overall Correct Predictions (%): 96.09
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.57 (23725/23827)
+			Specificity/True Negative Rate (%): 95.98 (27040/28173)
+			Overall Correct Predictions (%): 97.62
+	Target: off
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 73.79 (17517/23740)
+			Specificity/True Negative Rate (%): 95.45 (26975/28260)
+			Overall Correct Predictions (%): 85.56
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 96.0 (22790/23740)
+			Specificity/True Negative Rate (%): 98.46 (27826/28260)
+			Overall Correct Predictions (%): 97.34
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.5 (23622/23740)
+			Specificity/True Negative Rate (%): 97.81 (27640/28260)
+			Overall Correct Predictions (%): 98.58
+	Target: on
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 71.59 (17283/24143)
+			Specificity/True Negative Rate (%): 94.53 (26521/28057)
+			Overall Correct Predictions (%): 83.92
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 96.81 (23374/24143)
+			Specificity/True Negative Rate (%): 97.73 (27419/28057)
+			Overall Correct Predictions (%): 97.3
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.63 (24054/24143)
+			Specificity/True Negative Rate (%): 97.21 (27275/28057)
+			Overall Correct Predictions (%): 98.33
+	Target: right
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 72.13 (17102/23709)
+			Specificity/True Negative Rate (%): 91.49 (25883/28291)
+			Overall Correct Predictions (%): 82.66
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 95.16 (22562/23709)
+			Specificity/True Negative Rate (%): 97.7 (27639/28291)
+			Overall Correct Predictions (%): 96.54
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.79 (23660/23709)
+			Specificity/True Negative Rate (%): 97.81 (27672/28291)
+			Overall Correct Predictions (%): 98.72
+	Target: stop
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 79.36 (18979/23916)
+			Specificity/True Negative Rate (%): 92.16 (25927/28134)
+			Overall Correct Predictions (%): 86.27
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 95.28 (22787/23916)
+			Specificity/True Negative Rate (%): 98.98 (27847/28134)
+			Overall Correct Predictions (%): 97.28
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.22 (23730/23916)
+			Specificity/True Negative Rate (%): 97.68 (27480/28134)
+			Overall Correct Predictions (%): 98.39
+	Target: up
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 80.48 (19151/23796)
+			Specificity/True Negative Rate (%): 95.58 (26958/28204)
+			Overall Correct Predictions (%): 88.67
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 96.6 (22988/23796)
+			Specificity/True Negative Rate (%): 98.85 (27881/28204)
+			Overall Correct Predictions (%): 97.82
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.05 (23570/23796)
+			Specificity/True Negative Rate (%): 97.7 (27556/28204)
+			Overall Correct Predictions (%): 98.32
+	Target: yes
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 68.14 (16302/23925)
+			Specificity/True Negative Rate (%): 89.79 (25344/28225)
+			Overall Correct Predictions (%): 79.86
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 94.35 (22574/23925)
+			Specificity/True Negative Rate (%): 96.9 (27349/28225)
+			Overall Correct Predictions (%): 95.73
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.64 (23840/23925)
+			Specificity/True Negative Rate (%): 96.26 (27170/28225)
+			Overall Correct Predictions (%): 97.81
+Attack 1: carlini, Attack 2: alzantot
+	Target: down
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 15.24 (2958/19409)
+			Specificity/True Negative Rate (%): 95.92 (24355/25391)
+			Overall Correct Predictions (%): 60.97
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 74.86 (14530/19409)
+			Specificity/True Negative Rate (%): 99.88 (25361/25391)
+			Overall Correct Predictions (%): 89.04
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.6 (19332/19409)
+			Specificity/True Negative Rate (%): 99.82 (25345/25391)
+			Overall Correct Predictions (%): 99.73
+	Target: go
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 19.36 (3768/19463)
+			Specificity/True Negative Rate (%): 99.47 (25203/25337)
+			Overall Correct Predictions (%): 64.67
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 77.59 (15102/19463)
+			Specificity/True Negative Rate (%): 99.96 (25326/25337)
+			Overall Correct Predictions (%): 90.24
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.76 (19416/19463)
+			Specificity/True Negative Rate (%): 99.83 (25293/25337)
+			Overall Correct Predictions (%): 99.8
+	Target: left
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 31.15 (6090/19548)
+			Specificity/True Negative Rate (%): 94.44 (23848/25252)
+			Overall Correct Predictions (%): 66.83
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 77.23 (15096/19548)
+			Specificity/True Negative Rate (%): 99.92 (25231/25252)
+			Overall Correct Predictions (%): 90.02
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.49 (19448/19548)
+			Specificity/True Negative Rate (%): 99.8 (25201/25252)
+			Overall Correct Predictions (%): 99.66
+	Target: no
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 16.56 (3217/19427)
+			Specificity/True Negative Rate (%): 99.7 (25298/25373)
+			Overall Correct Predictions (%): 63.65
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 75.34 (14637/19427)
+			Specificity/True Negative Rate (%): 99.91 (25350/25373)
+			Overall Correct Predictions (%): 89.26
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.82 (19393/19427)
+			Specificity/True Negative Rate (%): 99.87 (25340/25373)
+			Overall Correct Predictions (%): 99.85
+	Target: off
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 22.72 (4460/19632)
+			Specificity/True Negative Rate (%): 97.91 (24642/25168)
+			Overall Correct Predictions (%): 64.96
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 75.59 (14840/19632)
+			Specificity/True Negative Rate (%): 99.88 (25138/25168)
+			Overall Correct Predictions (%): 89.24
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.73 (19579/19632)
+			Specificity/True Negative Rate (%): 99.82 (25123/25168)
+			Overall Correct Predictions (%): 99.78
+	Target: on
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 16.12 (3137/19456)
+			Specificity/True Negative Rate (%): 99.71 (23725/23794)
+			Overall Correct Predictions (%): 62.11
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 73.42 (14285/19456)
+			Specificity/True Negative Rate (%): 99.84 (23757/23794)
+			Overall Correct Predictions (%): 87.96
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.71 (19400/19456)
+			Specificity/True Negative Rate (%): 99.84 (23757/23794)
+			Overall Correct Predictions (%): 99.78
+	Target: right
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 19.93 (3882/19480)
+			Specificity/True Negative Rate (%): 98.02 (24770/25270)
+			Overall Correct Predictions (%): 64.03
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 76.24 (14852/19480)
+			Specificity/True Negative Rate (%): 99.85 (25232/25270)
+			Overall Correct Predictions (%): 89.57
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.82 (19445/19480)
+			Specificity/True Negative Rate (%): 99.82 (25225/25270)
+			Overall Correct Predictions (%): 99.82
+	Target: stop
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 33.07 (6438/19468)
+			Specificity/True Negative Rate (%): 99.84 (25291/25332)
+			Overall Correct Predictions (%): 70.82
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 76.42 (14877/19468)
+			Specificity/True Negative Rate (%): 99.9 (25306/25332)
+			Overall Correct Predictions (%): 89.69
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.68 (19405/19468)
+			Specificity/True Negative Rate (%): 99.82 (25287/25332)
+			Overall Correct Predictions (%): 99.76
+	Target: up
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 28.24 (5522/19556)
+			Specificity/True Negative Rate (%): 97.26 (24552/25244)
+			Overall Correct Predictions (%): 67.13
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 77.18 (15093/19556)
+			Specificity/True Negative Rate (%): 99.95 (25231/25244)
+			Overall Correct Predictions (%): 90.01
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.78 (19512/19556)
+			Specificity/True Negative Rate (%): 99.8 (25194/25244)
+			Overall Correct Predictions (%): 99.79
+	Target: yes
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 30.81 (6019/19537)
+			Specificity/True Negative Rate (%): 93.95 (23735/25263)
+			Overall Correct Predictions (%): 66.42
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 73.35 (14330/19537)
+			Specificity/True Negative Rate (%): 99.89 (25235/25263)
+			Overall Correct Predictions (%): 88.31
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.67 (19473/19537)
+			Specificity/True Negative Rate (%): 99.81 (25214/25263)
+			Overall Correct Predictions (%): 99.75
+Attack 1: carlini, Attack 2: carlini
+	Target: down
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 76.83 (18343/23876)
+			Specificity/True Negative Rate (%): 97.27 (27161/27924)
+			Overall Correct Predictions (%): 87.85
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 91.11 (21753/23876)
+			Specificity/True Negative Rate (%): 99.2 (27702/27924)
+			Overall Correct Predictions (%): 95.47
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 93.94 (22429/23876)
+			Specificity/True Negative Rate (%): 100.0 (27924/27924)
+			Overall Correct Predictions (%): 97.21
+	Target: go
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 84.16 (20246/24057)
+			Specificity/True Negative Rate (%): 96.91 (27176/28043)
+			Overall Correct Predictions (%): 91.02
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 91.7 (22061/24057)
+			Specificity/True Negative Rate (%): 98.14 (27521/28043)
+			Overall Correct Predictions (%): 95.17
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 93.25 (22432/24057)
+			Specificity/True Negative Rate (%): 100.0 (28043/28043)
+			Overall Correct Predictions (%): 96.88
+	Target: left
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 85.57 (20443/23891)
+			Specificity/True Negative Rate (%): 96.99 (27166/28009)
+			Overall Correct Predictions (%): 91.73
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 91.6 (21885/23891)
+			Specificity/True Negative Rate (%): 99.21 (27787/28009)
+			Overall Correct Predictions (%): 95.71
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 94.85 (22661/23891)
+			Specificity/True Negative Rate (%): 100.0 (28009/28009)
+			Overall Correct Predictions (%): 97.63
+	Target: no
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 79.76 (19045/23878)
+			Specificity/True Negative Rate (%): 94.45 (26468/28022)
+			Overall Correct Predictions (%): 87.69
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 91.43 (21831/23878)
+			Specificity/True Negative Rate (%): 97.47 (27313/28022)
+			Overall Correct Predictions (%): 94.69
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 91.66 (21887/23878)
+			Specificity/True Negative Rate (%): 100.0 (28022/28022)
+			Overall Correct Predictions (%): 96.16
+	Target: off
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 81.75 (19664/24053)
+			Specificity/True Negative Rate (%): 97.29 (27093/27847)
+			Overall Correct Predictions (%): 90.09
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 94.05 (22622/24053)
+			Specificity/True Negative Rate (%): 99.57 (27727/27847)
+			Overall Correct Predictions (%): 97.01
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 96.63 (23243/24053)
+			Specificity/True Negative Rate (%): 100.0 (27847/27847)
+			Overall Correct Predictions (%): 98.44
+	Target: on
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 78.13 (18885/24170)
+			Specificity/True Negative Rate (%): 95.22 (26547/27880)
+			Overall Correct Predictions (%): 87.29
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 91.26 (22057/24170)
+			Specificity/True Negative Rate (%): 98.39 (27432/27880)
+			Overall Correct Predictions (%): 95.08
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 93.05 (22490/24170)
+			Specificity/True Negative Rate (%): 100.0 (27880/27880)
+			Overall Correct Predictions (%): 96.77
+	Target: right
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 77.66 (18432/23734)
+			Specificity/True Negative Rate (%): 94.86 (26672/28116)
+			Overall Correct Predictions (%): 86.99
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 91.16 (21637/23734)
+			Specificity/True Negative Rate (%): 99.21 (27895/28116)
+			Overall Correct Predictions (%): 95.53
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 94.51 (22431/23734)
+			Specificity/True Negative Rate (%): 100.0 (28116/28116)
+			Overall Correct Predictions (%): 97.49
+	Target: stop
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 82.32 (19740/23981)
+			Specificity/True Negative Rate (%): 97.8 (27354/27969)
+			Overall Correct Predictions (%): 90.65
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 92.25 (22123/23981)
+			Specificity/True Negative Rate (%): 99.77 (27906/27969)
+			Overall Correct Predictions (%): 96.3
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 95.83 (22981/23981)
+			Specificity/True Negative Rate (%): 100.0 (27969/27969)
+			Overall Correct Predictions (%): 98.08
+	Target: up
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 88.39 (21087/23856)
+			Specificity/True Negative Rate (%): 93.38 (26140/27994)
+			Overall Correct Predictions (%): 91.08
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 92.32 (22023/23856)
+			Specificity/True Negative Rate (%): 99.91 (27970/27994)
+			Overall Correct Predictions (%): 96.42
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 95.53 (22789/23856)
+			Specificity/True Negative Rate (%): 100.0 (27994/27994)
+			Overall Correct Predictions (%): 97.94
+	Target: yes
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 84.71 (20181/23824)
+			Specificity/True Negative Rate (%): 94.83 (26718/28176)
+			Overall Correct Predictions (%): 90.19
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 90.85 (21645/23824)
+			Specificity/True Negative Rate (%): 97.52 (27476/28176)
+			Overall Correct Predictions (%): 94.46
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 91.59 (21820/23824)
+			Specificity/True Negative Rate (%): 100.0 (28176/28176)
+			Overall Correct Predictions (%): 96.15
+Attack 1: alzantot, Attack 2: alzantot
+	All Targets
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 17.41 (33896/194691)
+			Specificity/True Negative Rate (%): 97.65 (247110/253059)
+			Overall Correct Predictions (%): 62.76
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 89.71 (174659/194691)
+			Specificity/True Negative Rate (%): 99.66 (252207/253059)
+			Overall Correct Predictions (%): 95.34
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.78 (194265/194691)
+			Specificity/True Negative Rate (%): 99.88 (252751/253059)
+			Overall Correct Predictions (%): 99.84
+Attack 1: alzantot, Attack 2: carlini
+	All Targets
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 67.14 (160786/239475)
+			Specificity/True Negative Rate (%): 89.57 (251625/280925)
+			Overall Correct Predictions (%): 79.25
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 97.53 (233570/239475)
+			Specificity/True Negative Rate (%): 98.3 (276161/280925)
+			Overall Correct Predictions (%): 97.95
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.91 (239251/239475)
+			Specificity/True Negative Rate (%): 97.74 (274574/280925)
+			Overall Correct Predictions (%): 98.74
+Attack 1: carlini, Attack 2: alzantot
+	All Targets
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 18.87 (36756/194804)
+			Specificity/True Negative Rate (%): 98.11 (246695/251446)
+			Overall Correct Predictions (%): 63.52
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.37 (172146/194804)
+			Specificity/True Negative Rate (%): 99.96 (251343/251446)
+			Overall Correct Predictions (%): 94.9
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.82 (194451/194804)
+			Specificity/True Negative Rate (%): 99.94 (251299/251446)
+			Overall Correct Predictions (%): 99.89
+Attack 1: carlini, Attack 2: carlini
+	All Targets
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 62.18 (148274/238451)
+			Specificity/True Negative Rate (%): 94.03 (263938/280699)
+			Overall Correct Predictions (%): 79.4
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 92.75 (221154/238451)
+			Specificity/True Negative Rate (%): 99.41 (279050/280699)
+			Overall Correct Predictions (%): 96.35
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 94.21 (224640/238451)
+			Specificity/True Negative Rate (%): 100.0 (280699/280699)
+			Overall Correct Predictions (%): 97.34
+All Attacks
+	Target: down
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 38.82 (33514/86341)
+			Specificity/True Negative Rate (%): 97.91 (104678/106909)
+			Overall Correct Predictions (%): 71.51
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.52 (76430/86341)
+			Specificity/True Negative Rate (%): 98.15 (104932/106909)
+			Overall Correct Predictions (%): 93.85
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 98.37 (84931/86341)
+			Specificity/True Negative Rate (%): 98.07 (104851/106909)
+			Overall Correct Predictions (%): 98.21
+	Target: go
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 41.63 (36191/86941)
+			Specificity/True Negative Rate (%): 94.52 (101000/106859)
+			Overall Correct Predictions (%): 70.79
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.71 (77127/86941)
+			Specificity/True Negative Rate (%): 98.4 (105150/106859)
+			Overall Correct Predictions (%): 94.05
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 96.17 (83611/86941)
+			Specificity/True Negative Rate (%): 99.7 (106535/106859)
+			Overall Correct Predictions (%): 98.11
+	Target: left
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 37.95 (32943/86810)
+			Specificity/True Negative Rate (%): 97.81 (104252/106590)
+			Overall Correct Predictions (%): 70.94
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.46 (76794/86810)
+			Specificity/True Negative Rate (%): 99.0 (105527/106590)
+			Overall Correct Predictions (%): 94.27
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 96.89 (84112/86810)
+			Specificity/True Negative Rate (%): 99.81 (106388/106590)
+			Overall Correct Predictions (%): 98.5
+	Target: no
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 33.6 (29201/86904)
+			Specificity/True Negative Rate (%): 96.73 (103066/106546)
+			Overall Correct Predictions (%): 68.37
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.89 (77246/86904)
+			Specificity/True Negative Rate (%): 97.86 (104269/106546)
+			Overall Correct Predictions (%): 93.83
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.72 (86658/86904)
+			Specificity/True Negative Rate (%): 96.5 (102821/106546)
+			Overall Correct Predictions (%): 97.95
+	Target: off
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 40.13 (34915/86994)
+			Specificity/True Negative Rate (%): 97.19 (103461/106456)
+			Overall Correct Predictions (%): 71.53
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.32 (76829/86994)
+			Specificity/True Negative Rate (%): 99.3 (105707/106456)
+			Overall Correct Predictions (%): 94.36
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 97.96 (85219/86994)
+			Specificity/True Negative Rate (%): 99.77 (106209/106456)
+			Overall Correct Predictions (%): 98.95
+	Target: on
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 38.02 (33157/87209)
+			Specificity/True Negative Rate (%): 97.05 (101944/105041)
+			Overall Correct Predictions (%): 70.27
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 87.89 (76645/87209)
+			Specificity/True Negative Rate (%): 98.42 (103386/105041)
+			Overall Correct Predictions (%): 93.64
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.62 (86878/87209)
+			Specificity/True Negative Rate (%): 97.03 (101918/105041)
+			Overall Correct Predictions (%): 98.2
+	Target: right
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 41.82 (36094/86300)
+			Specificity/True Negative Rate (%): 96.01 (102728/107000)
+			Overall Correct Predictions (%): 71.82
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 89.02 (76823/86300)
+			Specificity/True Negative Rate (%): 98.84 (105763/107000)
+			Overall Correct Predictions (%): 94.46
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 97.18 (83865/86300)
+			Specificity/True Negative Rate (%): 99.75 (106734/107000)
+			Overall Correct Predictions (%): 98.6
+	Target: stop
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 38.21 (33135/86708)
+			Specificity/True Negative Rate (%): 98.1 (104764/106792)
+			Overall Correct Predictions (%): 71.27
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 88.64 (76861/86708)
+			Specificity/True Negative Rate (%): 99.13 (105861/106792)
+			Overall Correct Predictions (%): 94.43
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 97.7 (84716/86708)
+			Specificity/True Negative Rate (%): 99.67 (106437/106792)
+			Overall Correct Predictions (%): 98.79
+	Target: up
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 40.47 (35188/86957)
+			Specificity/True Negative Rate (%): 96.15 (102344/106443)
+			Overall Correct Predictions (%): 71.11
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 89.44 (77772/86957)
+			Specificity/True Negative Rate (%): 98.97 (105344/106443)
+			Overall Correct Predictions (%): 94.68
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 97.44 (84728/86957)
+			Specificity/True Negative Rate (%): 99.74 (106169/106443)
+			Overall Correct Predictions (%): 98.71
+	Target: yes
+		Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 37.27 (32396/86922)
+			Specificity/True Negative Rate (%): 96.48 (103015/106778)
+			Overall Correct Predictions (%): 69.91
+		Classifier: kNN
+			Sensitivity/True Positive Rate (%): 87.08 (75692/86922)
+			Specificity/True Negative Rate (%): 98.01 (104654/106778)
+			Overall Correct Predictions (%): 93.11
+		Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 99.84 (86787/86922)
+			Specificity/True Negative Rate (%): 96.45 (102991/106778)
+			Overall Correct Predictions (%): 97.98
+All Attacks, All Targets
+	Classifier: Neural Network
+			Sensitivity/True Positive Rate (%): 22.06 (191399/867648)
+			Specificity/True Negative Rate (%): 96.42 (1027619/1065802)
+			Overall Correct Predictions (%): 63.05
+	Classifier: kNN
+			Sensitivity/True Positive Rate (%): 93.37 (810154/867648)
+			Specificity/True Negative Rate (%): 98.68 (1051698/1065802)
+			Overall Correct Predictions (%): 96.3
+	Classifier: Decision Tree
+			Sensitivity/True Positive Rate (%): 96.68 (838804/867648)
+			Specificity/True Negative Rate (%): 99.74 (1062992/1065802)
+			Overall Correct Predictions (%): 98.36
