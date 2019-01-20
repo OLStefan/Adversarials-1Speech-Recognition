@@ -1,9 +1,10 @@
 /venv
 /.idea
-/adversarials-alzanot
-/adversarials-alzanot-alzanot
-/adversarials-alzanot-carlini
+/adversarials-alzantot
+/adversarials-alzantot-alzantot
+/adversarials-alzantot-carlini
 /adversarials-carlini
-/adversarials-carlini-alzanot
+/adversarials-carlini-alzantot
 /adversarials-carlini-carlini
 /originals
+*.zip

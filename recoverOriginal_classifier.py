@@ -182,10 +182,10 @@ for attack_1 in attacks:
             for orig in range(len(targets)):
                 res += sum_res[orig]
                 cnt += sum_cnt[orig]
-                print("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+                print("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                     sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
                 f.write(
-                    "\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+                    "\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                         sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
             print("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
             f.write("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
@@ -208,9 +208,9 @@ for target in targets:
         for orig in range(len(targets)):
             res += sum_res[orig]
             cnt += sum_cnt[orig]
-            print("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+            print("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                 sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
-            f.write("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+            f.write("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                 sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
         print("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
         f.write("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
@@ -230,9 +230,9 @@ for classifier in range(len(classifiers)):
     for orig in range(len(targets)):
         res += sum_res[orig]
         cnt += sum_cnt[orig]
-        print("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+        print("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
             sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
-        f.write("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+        f.write("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
             sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
     print("\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
     f.write("\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
