@@ -155,13 +155,13 @@ for attack_1 in attacks:
                     res += sum_res[orig]
                     cnt += sum_cnt[orig]
                     print("\t\t\t" + targets[orig] + ": " + str(
-                        round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+                        round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                         sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
                     f.write("\t\t\t" + targets[orig] + ": " + str(
-                        round(sum_res[orig] / sum_cnt[orig], 2) * 100) + " (" + str(
+                        round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                         sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-                print("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-                f.write("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+                print("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
+                f.write("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
 
 for attack_1 in attacks:
     for attack_2 in attacks:
@@ -187,8 +187,8 @@ for attack_1 in attacks:
                 f.write(
                     "\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                         sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-            print("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-            f.write("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+            print("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
+            f.write("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
 
 print("All Attacks")
 f.write("All Attacks\n")
@@ -212,8 +212,8 @@ for target in targets:
                 sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
             f.write("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
                 sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-        print("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-        f.write("\t\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+        print("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
+        f.write("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
 
 print("All Attacks, All Targets")
 f.write("All Attacks, All Targets\n")
@@ -234,7 +234,7 @@ for classifier in range(len(classifiers)):
             sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
         f.write("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
             sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-    print("\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-    f.write("\t\tOverall: " + str(round((res / cnt), 2) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+    print("\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
+    f.write("\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
 
 f.close()
