@@ -54,13 +54,13 @@ print(str(cnt_samples))
 
 
 def classify(classifier, samples_train, samples_test, labels_train, labels_test):
-    a = [0 for i in range(len(targets))]
+    a = [[0 for i in range(len(targets))] for j in range(len(targets))]
     b = [0 for i in range(len(targets))]
     clf = base.clone(classifier)
     clf.fit(samples_train, labels_train)
     pred = clf.predict(samples_test)
     for i in range(len(labels_test)):
-        a[labels_test[i]] += int(pred[i] == labels_test[i])
+        a[labels_test[i]][pred[i]] += 1
         b[labels_test[i]] += 1
     return a, b
 
@@ -139,29 +139,24 @@ for attack_1 in attacks:
             print("\tTarget: " + target)
             f.write("\tTarget: " + target + "\n")
             for classifier in range(len(classifiers)):
-                sum_res = [0 for i in range(len(targets))]
+                sum_res = [[0 for i in range(len(targets))] for j in range(len(targets))]
                 sum_cnt = [0 for i in range(len(targets))]
                 for i in range(len(cnt_difAtk_difTgt[classifier][attacks.index(attack_1)][attacks.index(attack_2)][
                                        targets.index(target)])):
                     for j in range(len(targets)):
-                        sum_res[j] += res_difAtk_difTgt[classifier][attacks.index(attack_1)][attacks.index(attack_2)][
-                            targets.index(target)][i][j]
+                        for k in range(len(targets)):
+                            sum_res[j][k] += res_difAtk_difTgt[classifier][attacks.index(attack_1)][attacks.index(attack_2)][
+                                targets.index(target)][i][j][k]
                         sum_cnt[j] += cnt_difAtk_difTgt[classifier][attacks.index(attack_1)][attacks.index(attack_2)][
                             targets.index(target)][i][j]
                 print("\t\tClassifier: " + clfNames[classifier])
                 f.write("\t\tClassifier: " + clfNames[classifier] + "\n")
-                res, cnt = 0, 0
                 for orig in range(len(targets)):
-                    res += sum_res[orig]
-                    cnt += sum_cnt[orig]
-                    print("\t\t\t" + targets[orig] + ": " + str(
-                        round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-                        sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
-                    f.write("\t\t\t" + targets[orig] + ": " + str(
-                        round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-                        sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-                print("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-                f.write("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+                    print("\t\t\tOriginal: " + targets[orig])
+                    f.write("\t\t\tOriginal: " + targets[orig] + "\n")
+                    for pred in range(len(targets)):
+                         print("\t\t\t\t" + targets[pred] + ":" + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" +str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")")
+                         f.write("\t\t\t\t" + targets[pred] + ": " + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" + str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")\n")
 
 for attack_1 in attacks:
     for attack_2 in attacks:
@@ -170,25 +165,21 @@ for attack_1 in attacks:
         f.write("Attack 1: " + attack_1 + ", Attack 2: " + attack_2 + "\n")
         f.write("\tAll Targets\n")
         for classifier in range(len(classifiers)):
-            sum_res = [0 for i in range(len(targets))]
+            sum_res = [[0 for i in range(len(targets))] for j in range(len(targets))]
             sum_cnt = [0 for i in range(len(targets))]
             for i in range(len(cnt_difAtk[classifier][attacks.index(attack_1)][attacks.index(attack_2)])):
                 for j in range(len(targets)):
-                    sum_res[j] += res_difAtk[classifier][attacks.index(attack_1)][attacks.index(attack_2)][i][j]
+                    for k in range(len(targets)):
+                        sum_res[j][k] += res_difAtk[classifier][attacks.index(attack_1)][attacks.index(attack_2)][i][j][k]
                     sum_cnt[j] += cnt_difAtk[classifier][attacks.index(attack_1)][attacks.index(attack_2)][i][j]
             print("\t\tClassifier: " + clfNames[classifier])
             f.write("\t\tClassifier: " + clfNames[classifier] + "\n")
-            res, cnt = 0, 0
             for orig in range(len(targets)):
-                res += sum_res[orig]
-                cnt += sum_cnt[orig]
-                print("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-                    sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
-                f.write(
-                    "\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-                        sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-            print("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-            f.write("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+                print("\t\t\tOriginal: " + targets[orig])
+                f.write("\t\t\tOriginal: " + targets[orig] + "\n")
+                for pred in range(len(targets)):
+                    print("\t\t\t\t" + targets[pred] + ":" + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" +str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")")
+                    f.write("\t\t\t\t" + targets[pred] + ": " + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" + str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")\n")
 
 print("All Attacks")
 f.write("All Attacks\n")
@@ -196,45 +187,39 @@ for target in targets:
     print("\tTarget: " + target)
     f.write("\tTarget: " + target + "\n")
     for classifier in range(len(classifiers)):
-        sum_res = [0 for i in range(len(targets))]
+        sum_res = [[0 for i in range(len(targets))] for j in range(len(targets))]
         sum_cnt = [0 for i in range(len(targets))]
         for i in range(len(cnt_difTgt[classifier][targets.index(target)])):
             for j in range(len(targets)):
-                sum_res[j] += res_difTgt[classifier][targets.index(target)][i][j]
+                for k in range(len(targets)):
+                    sum_res[j][k] += res_difTgt[classifier][targets.index(target)][i][j][k]
                 sum_cnt[j] += cnt_difTgt[classifier][targets.index(target)][i][j]
         print("\t\tClassifier: " + clfNames[classifier])
         f.write("\t\tClassifier: " + clfNames[classifier] + "\n")
-        res, cnt = 0, 0
         for orig in range(len(targets)):
-            res += sum_res[orig]
-            cnt += sum_cnt[orig]
-            print("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-                sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
-            f.write("\t\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-                sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-        print("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-        f.write("\t\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+            print("\t\t\tOriginal: " + targets[orig])
+            f.write("\t\t\tOriginal: " + targets[orig] + "\n")
+            for pred in range(len(targets)):
+                 print("\t\t\t\t" + targets[pred] + ":" + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" +str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")")
+                 f.write("\t\t\t\t" + targets[pred] + ": " + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" + str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")\n")
 
 print("All Attacks, All Targets")
 f.write("All Attacks, All Targets\n")
 for classifier in range(len(classifiers)):
-    sum_res = [0 for i in range(len(targets))]
+    sum_res = [[0 for i in range(len(targets))] for j in range(len(targets))]
     sum_cnt = [0 for i in range(len(targets))]
     for i in range(len(cnt_all[classifier])):
         for j in range(len(targets)):
-            sum_res[j] += res_all[classifier][i][j]
+            for k in range(len(targets)):
+                sum_res[j][k] += res_all[classifier][i][j][k]
             sum_cnt[j] += cnt_all[classifier][i][j]
-    print("\tClassifier: " + clfNames[classifier])
-    f.write("\tClassifier: " + clfNames[classifier] + "\n")
-    res, cnt = 0, 0
+    print("\t\tClassifier: " + clfNames[classifier])
+    f.write("\t\tClassifier: " + clfNames[classifier] + "\n")
     for orig in range(len(targets)):
-        res += sum_res[orig]
-        cnt += sum_cnt[orig]
-        print("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-            sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")")
-        f.write("\t\t" + targets[orig] + ": " + str(round(sum_res[orig] / sum_cnt[orig], 3) * 100) + " (" + str(
-            sum_res[orig]) + "/" + str(sum_cnt[orig]) + ")\n")
-    print("\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")")
-    f.write("\t\tOverall: " + str(round((res / cnt), 3) * 100) + " (" + str(res) + "/" + str(cnt) + ")\n")
+        print("\t\t\tOriginal: " + targets[orig])
+        f.write("\t\t\tOriginal: " + targets[orig] + "\n")
+        for pred in range(len(targets)):
+            print("\t\t\t\t" + targets[pred] + ":" + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" +str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")")
+            f.write("\t\t\t\t" + targets[pred] + ": " + str(round(sum_res[orig][pred] / sum_cnt[orig], 3) * 100) + " (" + str(sum_res[orig][pred]) + "/" + str(sum_cnt[orig]) + ")\n")
 
 f.close()
