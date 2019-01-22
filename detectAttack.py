@@ -132,7 +132,7 @@ for rep in range(reps):
         a = classify(classifier, samples_train, samples_test, labels_train, labels_test)
         cnt_all[classifiers.index(classifier)].append(a)
 
-f = open("results_evaluateClassifiers.txt", "w+")
+f = open("results_detectAttack.txt", "w+")
 
 # Ausgabe
 for attack_1 in attacks:

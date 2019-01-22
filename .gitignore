@@ -8,3 +8,5 @@
 /adversarials-carlini-carlini
 /originals
 *.zip
+/adversarials
+/adversarials-carlini-alzantot_recoverTest
