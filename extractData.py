@@ -25,7 +25,7 @@ def main():
                 src_wave_L2 = np.linalg.norm(src_wave, ord=2)
                 src_wave_Linf = np.linalg.norm(src_wave, ord=np.inf)
 
-                src_mfcc_L0 = np.linalg.norm(src_mfcc_feat, ord=0)
+                src_mfcc_L0 = np.linalg.norm(src_mfcc_feat, ord=1)
                 src_mfcc_L2 = np.linalg.norm(src_mfcc_feat, ord=2)
                 src_mfcc_Linf = np.linalg.norm(src_mfcc_feat, ord=np.inf)
 
@@ -38,7 +38,7 @@ def main():
                 orig_wave_L2 = np.linalg.norm(orig_wave, ord=2)
                 orig_wave_Linf = np.linalg.norm(orig_wave, ord=np.inf)
 
-                orig_mfcc_L0 = np.linalg.norm(orig_mfcc_feat, ord=0)
+                orig_mfcc_L0 = np.linalg.norm(orig_mfcc_feat, ord=1)
                 orig_mfcc_L2 = np.linalg.norm(orig_mfcc_feat, ord=2)
                 orig_mfcc_Linf = np.linalg.norm(orig_mfcc_feat, ord=np.inf)
 
