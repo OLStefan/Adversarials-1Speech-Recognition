@@ -5,7 +5,6 @@ import python_speech_features
 
 
 def main():
-    clean_dir = "originals"
     adv_dirs = ["adversarials-carlini"]
     adv1_dirs = ["adversarials-carlini-alzantot_recoverTest"]
     attacks = ["alzantot", "carlini"]
@@ -24,7 +23,7 @@ def main():
                 src_wave_L2 = np.linalg.norm(src_wave, ord=2)
                 src_wave_Linf = np.linalg.norm(src_wave, ord=np.inf)
 
-                src_mfcc_L0 = np.linalg.norm(src_mfcc_feat, ord=0)
+                src_mfcc_L0 = np.linalg.norm(src_mfcc_feat, ord=1)
                 src_mfcc_L2 = np.linalg.norm(src_mfcc_feat, ord=2)
                 src_mfcc_Linf = np.linalg.norm(src_mfcc_feat, ord=np.inf)
 
@@ -38,7 +37,7 @@ def main():
                 orig_wave_L2 = np.linalg.norm(orig_wave, ord=2)
                 orig_wave_Linf = np.linalg.norm(orig_wave, ord=np.inf)
 
-                orig_mfcc_L0 = np.linalg.norm(orig_mfcc_feat, ord=0)
+                orig_mfcc_L0 = np.linalg.norm(orig_mfcc_feat, ord=1)
                 orig_mfcc_L2 = np.linalg.norm(orig_mfcc_feat, ord=2)
                 orig_mfcc_Linf = np.linalg.norm(orig_mfcc_feat, ord=np.inf)
 
@@ -50,7 +49,7 @@ def main():
                 diff_mfcc_Linf = orig_mfcc_Linf - src_mfcc_Linf
 
                 # filename Orig 1stAttack 1stManip 2ndAttck 2ndManip diff_wave_L0 diff_wave_L2 diff_wave_Linf diff_mfcc_L1 diff_mfcc_L2 diff_mfcc_Linf
-                f.write(file + "," + orig + "," + attacks[int(folder_index / 2)] + "," + manip_1 + "," + attacks[
+                f.write(file + "," + orig + "," + attacks[int(folder_index / 2) + 1] + "," + manip_1 + "," + attacks[
                     folder_index % 2] + "," + subfolder +
                         "," + str(diff_wave_L0) + "," + str(diff_wave_L2) + "," + str(diff_wave_Linf) + "," + str(
                     diff_mfcc_L0) + "," + str(diff_mfcc_L2) + "," + str(diff_mfcc_Linf) + "\n")
