@@ -10,7 +10,7 @@ The Attacks I used to create the samples are:
 ## Used Datasets
 
 The dataset used to create the samples was an excerpt from the Speech Commands Dataset (https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/data).
-Only the words used were: `down`, `go`, `left`, `no`, `off`, `on`, `right`, `stop`, `up`, and `yes`. 
+Only the following words were used: `down`, `go`, `left`, `no`, `off`, `on`, `right`, `stop`, `up`, and `yes`. 
 
 ## Structure of Adversarial Samples
 Under releases there are three archives of audio files, `originals` which contains the not attacked-samples from the original dataset, `adversarials` which contains one time attacked samples. The two folders `adversarials-alazanot` and `adversarials-carlini` contain samples which were manipulated with the attack in the folder name once. The name of the subfolder was the target word for the attack. The file names are structured as follows: [original_word]_[original_filename].
